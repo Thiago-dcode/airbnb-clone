@@ -1,5 +1,5 @@
-
-export default function Home() {
+'use client'
+const Home = () => {
   return (
    
    <div className="text-rose-500 text-2xl">
@@ -7,3 +7,5 @@ export default function Home() {
    </div>
   )
 }
+
+export default Home;
